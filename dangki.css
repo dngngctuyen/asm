@@ -1,0 +1,102 @@
+*{margin: 0 ;padding: 0 ;box-sizing: border-box;}
+body{
+    background-color: #e5cdb8;
+}
+#body{
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+}
+header{
+    height: 150px;
+}
+header img{
+    height: 100%;
+    width: 100%;
+}
+header a img:hover{
+    opacity: 0.75;
+}
+nav{
+    height: 50px;
+    background-color: #285195;
+    border-radius: 0 0 10px 10px;
+}
+nav a{
+    list-style: none;
+    display: block;
+    padding-left: 20px;
+    float: left;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: block;
+    line-height: 50px;
+    padding: 0 10px;
+}
+nav a:hover{
+    background-color: #FFFFFF;
+    color: rgb(91, 83, 83);
+    border-radius: 5px;
+}
+#text{
+    height: 35px;
+    background-color: #e5cdb8;
+    margin-top: 5px;
+    border-radius: 6px;
+}
+#text p{
+    line-height: 35px;
+    font-size:20px;
+    color: red;
+    font-weight: bold;
+}
+#content{
+    height: 750px;
+    display: flex;
+    justify-content: center;
+}
+form{
+    border: 1px solid beige;
+    width: 720px;
+    height: 750px;
+    font-size: 15px;
+    padding: 0 30px;
+    background-color: beige;
+}
+#dientu{
+    width: 200px;
+    height: 30px;
+    padding: 0px 20px;
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+#form-button {
+    padding: 8px 30px;
+    outline: none;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #00a400;
+    font-weight: normal;
+    margin-left: 265px;
+}
+
+#form-button:hover{
+    color: red;
+    box-shadow: inset 0 0 20px gray;
+}
+#footer{
+    height: 120px;
+    background-color: #285195;
+    padding: 20px;
+    line-height: 20px; 
+    clear: both;
+}
+#footer p{
+    color: #FFFFFF;
+}
+#footer a{
+    text-decoration: none;
+}
